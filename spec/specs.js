@@ -9,7 +9,12 @@ describe('FindAndReplace', function() {
   });
 
   it("replaces the word 'hello' with the word 'world' when 'hello is great' is entered", function() {
-   expect(FindAndReplace("hello hello hello", "hello", "world")).to.equal("world world world");
+   expect(FindAndReplace("hello is great", "hello", "world")).to.equal("world is great");
   });
+
+  it("replaces the word 'hello' with the word 'world' and clears it of special characters when ' hello is great!' is entered", function() {
+   expect(FindAndReplace('"hello" is great!', "hello", "world")).to.equal('world is great');
+  });
+
 
 });

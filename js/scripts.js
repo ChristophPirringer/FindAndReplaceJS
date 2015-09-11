@@ -16,8 +16,11 @@ function FindAndReplace(input_sentence, target_word, replacement_word) {
 
 $(document).ready(function()  {
   $("form#find_and_replace").submit(function(event) {
-    var text = ($("input#input_sentence").val());
-    var result = FindAndReplace(text);
+    var input_sentence = ($("input#input_sentence").val());
+    var target_word = ($("input#target_word").val());
+    var replacement_word = ($("input#replacement_word").val());
+
+    var result = FindAndReplace(input_sentence, target_word, replacement_word);
 
     $(".find_and_replace").text(result);
 

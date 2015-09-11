@@ -5,31 +5,37 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Drop the base!</title>
+    <title>Find And Replace!</title>
   </head>
 
   <body>
 
     <div class="container">
       <div class="jumbotron">
-        <h1>Express a number in any base you want!</h1>
+        <h1>Everyone can be replaced, even You!</h1>
       </div>
 
-      <form id="to_base">
+      <form id="find_and_replace">
         <div class="form-group">
-          <label for="omni_number">Enter a number to be expressed in another base:</label>
-          <input id="omni_number" type="number" class="form-control">
+          <label for="input_sentence">Enter the text to be searched:</label>
+          <input id="input_sentence" type="text" class="form-control">
         </div>
 
         <div class="form-group">
-          <label for="base">Enter the base:</label>
-          <input id="base" type="number" class="form-control">
+          <label for="target_word">Enter the targeted word:</label>
+          <input id="target_word" type="text" class="form-control">
         </div>
+
+        <div class="form-group">
+          <label for="replacement_word">Enter the word to replace it:</label>
+          <input id="replacement_word" type="text" class="form-control">
+        </div>
+
         <button type-"submit" class="btn btn-success btn-lg" >Embrace the Insanity!</button>
       </form>
 
       <div id="result">
-        <h1><span class="to_base"></span></h1>
+        <h1><span class="find_and_replace"></span></h1>
       </div>
 
     </div>

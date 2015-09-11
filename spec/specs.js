@@ -8,4 +8,8 @@ describe('FindAndReplace', function() {
    expect(FindAndReplace("hello hello hello", "hello", "world")).to.equal("world world world");
   });
 
+  it("replaces the word 'hello' with the word 'world' when 'hello is great' is entered", function() {
+   expect(FindAndReplace("hello hello hello", "hello", "world")).to.equal("world world world");
+  });
+
 });

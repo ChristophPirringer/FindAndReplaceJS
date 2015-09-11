@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This app processes an inputted string by downcasing it and removing all punctuation and special characters. Then, its constituting words are compared to a target-word inputted by the user and, if true, will be replaced by a replacement_word also given by the user. The thusuly processed sentence is then displayed on the html-page of the app. }_
+_{This app processes an inputted string by downcasing it and removing all punctuation and special characters. Then, its constituting words are compared to a target-word inputted by the user and, if true, will be replaced by a replacement_word also given by the user. The thusly processed sentence is then displayed on the html-page of the app. }_
 
 ## Setup
 

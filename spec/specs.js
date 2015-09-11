@@ -16,5 +16,9 @@ describe('FindAndReplace', function() {
    expect(FindAndReplace('"hello" is great!', "hello", "world")).to.equal('world is great');
   });
 
+  it("downcases the entered string so that 'HELLO iS GrEAT' will be output as 'world is great'", function() {
+   expect(FindAndReplace('"HELLO iS GrEAT', "hello", "world")).to.equal('world is great');
+  });
+
 
 });

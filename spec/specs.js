@@ -1,7 +1,7 @@
 describe('FindAndReplace', function() {
 
-  it("", function() {
-   // expect(toBase.binary(156)).to.equal(10011100);
+  it("replaces the word 'hello' with the word 'world' when only 'hello' is entered", function() {
+   expect(FindAndReplace("hello", "hello", "world")).to.equal("world");
   });
 
 });

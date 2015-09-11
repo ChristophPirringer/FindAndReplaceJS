@@ -9,7 +9,7 @@ function FindAndReplace(input_sentence, target_word, replacement_word) {
       }
   });
 
-  return input_new.toString();
+  return input_new.join(" ");
 
 }
 
